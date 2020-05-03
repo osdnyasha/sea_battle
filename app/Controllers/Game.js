@@ -303,12 +303,13 @@ define('app/Controllers/Game.js', [
          */
         aiMove() {
             // проверка нет ли победителя
-            this.checkWin();
+            
 
             if(this.playerTurn || this.gameEnd) {
                 return ;
             }
-
+            this.checkWin();
+            
             this.declareWhoNext(); // Обьявление кто следующий
 
 
@@ -429,6 +430,7 @@ define('app/Controllers/Game.js', [
             this.gameEnd = true;
             this.removeEventsField();
 
+            
             if(winner === 'AI') {
                 this.aiWins++; 
             }else {
