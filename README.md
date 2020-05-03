@@ -7,3 +7,6 @@
 
 <img src="assets/img/task.png" alt="Task">
 
+
+<a href="https://osdnyasha.github.io/sea_battle/">Online demo</a>
+
