@@ -116,3 +116,14 @@
     background: url("../img/sprite.png") #ffffff no-repeat 0 -53px;
   }
   
+
+  @media only screen and (max-width: 840px) {
+    .field-ai {
+      margin-left: 0;
+      margin-top: 25px;
+    }
+    .field__btns {
+      justify-content: center;
+    }
+  }
+  
