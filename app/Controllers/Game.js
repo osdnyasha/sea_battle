@@ -435,6 +435,7 @@ define('app/Controllers/Game.js', [
                 this.aiWins++; 
             }else {
                 this.playerWins++;
+                winner = this.playerName;
             }
 
             document.querySelector('.title').innerHTML = "winner is " + winner;
