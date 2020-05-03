@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #545454;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+    background: #5B80F0;
+    margin: 50px 15px;
+    padding: 50px;
+    border-radius: 25px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;;
+  }
+  
+  .title span {
+    color: #F2EBD3;
+  }
+  
+  .fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gameOver {
+    opacity: .5;
+  }
+
+  .field {
+    width: 300px;
+    height: 300px;;
+  }
+
+  .whoNext {
+    outline: 5px solid red;
+  }
+
+  .names, .scores {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .scores {
+    padding: 10px 0;
+    color: white;
+  }
+
+  .name {
+    font-weight: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+  }
+  .cell {
+    box-sizing: border-box;
+    background: white;
+    outline:1px solid #5B80F0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .ship {
+    background: url("../img/sprite.png") #ffffff no-repeat 0 -104px;
+  }
+  
+  .field__btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;;
+  }
+
+  .btn {
+    background-color: #214ed7;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .cell:hover {
+    opacity: .8;
+  }
+
+  .field-ai {
+    margin-left: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .miss {
+    background: url("../img/sprite.png") #ffffff no-repeat 0 -5px;
+  }
+  
+  .hit {
+    background: url("../img/sprite.png") #ffffff no-repeat 0 -144px;
+  }
+  .die {
+    background: url("../img/sprite.png") #ffffff no-repeat 0 -53px;
+  }
+  
